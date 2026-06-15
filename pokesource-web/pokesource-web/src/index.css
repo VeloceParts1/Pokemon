@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --color-deep-charcoal: #1A1A2E;
+  --color-electric-blue: #2D3A8C;
+  --color-rich-gold: #D4A843;
+  --color-soft-slate: #8B8FA3;
+  --color-electric-purple: #6C63FF;
+  --color-dark-navy: #0F1626;
+  --color-holo-iri: #E8E0FF;
+  --color-success-green: #34D399;
+  --color-warning-amber: #F59E0B;
+
+  --font-inter: "Inter", sans-serif;
+  --font-space: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --shadow-sm: 0 1px 3px rgba(26, 26, 46, 0.1);
+  --shadow-md: 0 4px 6px rgba(26, 26, 46, 0.12);
+  --shadow-lg: 0 10px 25px rgba(26, 26, 46, 0.15);
+  --shadow-xl: 0 20px 50px rgba(26, 26, 46, 0.2);
+  --shadow-glow-gold: 0 0 20px rgba(212, 168, 67, 0.3);
+  --shadow-glow-purple: 0 0 20px rgba(108, 99, 255, 0.3);
+}
+
+@layer base {
+  body {
+    @apply font-inter bg-deep-charcoal text-white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-space;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-rich-gold to-[#F5D982] text-deep-charcoal font-semibold py-2.5 px-6 rounded-lg transition-all hover:scale-105 hover:shadow-glow-gold active:scale-95;
+  }
+  .btn-secondary {
+    @apply border-2 border-rich-gold text-rich-gold font-semibold py-2.5 px-6 rounded-lg transition-all hover:bg-rich-gold hover:text-deep-charcoal active:scale-95;
+  }
+  .card-premium {
+    @apply bg-[#1E1E3A] rounded-xl border border-rich-gold/15 shadow-lg transition-all hover:-translate-y-1 hover:border-rich-gold/40 hover:shadow-xl;
+  }
+}

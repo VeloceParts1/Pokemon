@@ -1,0 +1,117 @@
+export const products = [
+  {
+    id: 'sv-01-booster-box',
+    name: 'Scarlet & Violet: Booster Box',
+    category: 'Booster Box',
+    set: 'Scarlet & Violet',
+    price: 119.99,
+    description: 'Each booster box contains 36 booster packs of the new Scarlet & Violet expansion. Experience the new Paldea region and discover powerful new Pokémon ex.',
+    image: '/assets/pokesource-booster-pack.png',
+    stock: 24,
+    isPreOrder: false,
+    rating: 4.8,
+    reviews: 124,
+    tags: ['New Release', 'Authentic']
+  },
+  {
+    id: 'sv-02-etb',
+    name: 'Scarlet & Violet: Elite Trainer Box (Miraidon)',
+    category: 'Elite Trainer Box',
+    set: 'Scarlet & Violet',
+    price: 44.99,
+    description: 'The Miraidon Elite Trainer Box includes 9 booster packs, 1 full-art foil promo card featuring Miraidon, and various accessories including card sleeves, energy cards, and damage-counter dice.',
+    image: '/assets/pokesource-elite-box.png',
+    stock: 15,
+    isPreOrder: false,
+    rating: 4.9,
+    reviews: 86,
+    tags: ['Best Seller']
+  },
+  {
+    id: 'sv-03-paldea-evolved-case',
+    name: 'Paldea Evolved: Sealed Booster Case (6 Boxes)',
+    category: 'Cases',
+    set: 'Paldea Evolved',
+    price: 699.99,
+    description: 'Factory sealed case of Paldea Evolved. Contains 6 Booster Boxes. Perfect for long-term investors and serious collectors.',
+    image: '/assets/pokesource-booster-pack.png',
+    stock: 5,
+    isPreOrder: true,
+    rating: 5.0,
+    reviews: 12,
+    tags: ['Investment Grade', 'Limited Stock']
+  },
+  {
+    id: 'sv-04-obsidian-flames-etb',
+    name: 'Obsidian Flames: Elite Trainer Box',
+    category: 'Elite Trainer Box',
+    set: 'Obsidian Flames',
+    price: 39.99,
+    description: 'Red-hot embers illuminate the pitch-black night and sparks flare into an inferno as Charizard ex surges forth with newfound powers of darkness!',
+    image: '/assets/pokesource-elite-box.png',
+    stock: 42,
+    isPreOrder: false,
+    rating: 4.7,
+    reviews: 56,
+    tags: ['Charizard']
+  },
+  {
+    id: 'swsh-evolving-skies-bb',
+    name: 'Evolving Skies: Booster Box',
+    category: 'Booster Box',
+    set: 'Evolving Skies',
+    price: 449.99,
+    description: 'Feel the power of the shifting winds, and brace for a high-flying storm as mighty Dragon-type Pokémon make their triumphant return! Rayquaza VMAX leads the surge from on high.',
+    image: '/assets/pokesource-booster-pack.png',
+    stock: 2,
+    isPreOrder: false,
+    rating: 4.9,
+    reviews: 215,
+    tags: ['Rare', 'High Demand']
+  },
+  {
+    id: 'swsh-crown-zenith-etb',
+    name: 'Crown Zenith: Elite Trainer Box',
+    category: 'Elite Trainer Box',
+    set: 'Crown Zenith',
+    price: 49.99,
+    description: 'The Legendary heroes Zacian and Zamazenta shine with new VSTAR Powers, and an all-star assembly of Pokémon and Trainers arrive to celebrate the era of Pokémon V!',
+    image: '/assets/pokesource-elite-box.png',
+    stock: 18,
+    isPreOrder: false,
+    rating: 4.8,
+    reviews: 142,
+    tags: ['Special Set']
+  },
+  {
+    id: 'sv-151-ultra-premium',
+    name: 'Pokémon TCG: 151 Ultra-Premium Collection',
+    category: 'Premium Collection',
+    set: '151',
+    price: 109.99,
+    description: 'Mythical Pokémon Mew holds many secrets of the Pokémon world, and usually only the luckiest of Trainers encounter it. But now you can add it to your own Pokédex along with even more Kanto Pokémon!',
+    image: '/assets/pokesource-elite-box.png',
+    stock: 0,
+    isPreOrder: false,
+    rating: 4.9,
+    reviews: 310,
+    tags: ['Sold Out']
+  },
+  {
+    id: 'sv-paradox-rift-bb',
+    name: 'Paradox Rift: Booster Box',
+    category: 'Booster Box',
+    set: 'Paradox Rift',
+    price: 104.99,
+    description: 'Dive into the clouds of Area Zero and explore a land that appears to be unbound by time! Ancient Pokémon like Roaring Moon ex and Sandy Shocks ex appear alongside Future Pokémon like Iron Valiant ex and Iron Hands ex.',
+    image: '/assets/pokesource-booster-pack.png',
+    stock: 35,
+    isPreOrder: false,
+    rating: 4.6,
+    reviews: 45,
+    tags: ['Paradox']
+  }
+];
+
+export const categories = ['All', 'Booster Box', 'Elite Trainer Box', 'Cases', 'Premium Collection'];
+export const sets = ['All', 'Scarlet & Violet', 'Paldea Evolved', 'Obsidian Flames', 'Evolving Skies', 'Crown Zenith', '151', 'Paradox Rift'];
